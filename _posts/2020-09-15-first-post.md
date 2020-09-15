@@ -72,9 +72,9 @@ KAU너드들의 첫번째 개발자 gyu 입니다.
     저는 gyu 이니까 gyu 폴더를 만들겠습니다.   
     
     해당 폴더에 이미지를 넣어주고 다음과 같이 써줍니다.  
-    ```text
-    {% include figure image_path="/assets/images/gyu/881.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
-    ```
+    
+    '{% include figure image_path="/assets/images/gyu/881.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}'
+    
     현재 아마 gyu와 881.png 말고는 나머지는 똑같을 것 입니다.
     다만 md 파일 preview해주는 기능으로는 다음의 사진들이 안보일 것 입니다.  
     신뢰의 도약으로 써주시거나, `ruby ` 를 설치하시고 `jekyll server` 로 구동시키면, 자신의 포스트들이 어떻게 나올 지 볼 수 있습니다.
