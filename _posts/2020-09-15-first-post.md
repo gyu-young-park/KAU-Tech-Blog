@@ -67,17 +67,14 @@ KAU너드들의 첫번째 개발자 gyu 입니다.
 
 2. 포스트에 이미지 추가하기  
     생각보다 어렵지만 어렵지 않습니다. 왜냐구요? 제가 여기에 적어놓기 때문이죠!  
+    [이미지 올리는 방법 공식문서](https://mmistakes.github.io/minimal-mistakes/docs/helpers/)  
+    
     모든 이미지들은 assets/images 폴더에서 관리하기로 (제멋대로) 결정했습니다.  
     그리고 이미지 이름 간의 충돌을 막기위해 images 폴더 안에 각자의 영어이름 폴더를 만들어주세요.  
     저는 gyu 이니까 gyu 폴더를 만들겠습니다.   
     
-    해당 폴더에 이미지를 넣어주고 다음과 같이 써줍니다.  
-    
-    '{% include figure image_path="/assets/images/gyu/881.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}'
-    
-    현재 아마 gyu와 881.png 말고는 나머지는 똑같을 것 입니다.
-    다만 md 파일 preview해주는 기능으로는 다음의 사진들이 안보일 것 입니다.  
-    신뢰의 도약으로 써주시거나, `ruby ` 를 설치하시고 `jekyll server` 로 구동시키면, 자신의 포스트들이 어떻게 나올 지 볼 수 있습니다.
+    다만 md 파일 preview해주는 기능으로는 사진들이 안보일 것 입니다.  
+    신뢰의 도약으로 써주시거나, `ruby ` 를 설치하시고 `jekyll server` 로 구동시키면, 자신의 포스트들이 어떻게 나올지 볼 수 있습니다.
 
     이 밖에 사용하는 방법은 아래에 아주 잘 기술되어있습니다.  
     [기술 블로그 사용방법](https://devinlife.com/categories/)  
