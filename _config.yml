@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "KAU Tech Blog"
 description              : "KAU 너드들은 여기 모여라!"
-url                      : "https://kau.tech.blog.github.io"
+url                      : "https://gyu-young-park.github.io/KAU-Tech-Blog/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "/gyu-young-park/KAU-Tech-Blog"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
