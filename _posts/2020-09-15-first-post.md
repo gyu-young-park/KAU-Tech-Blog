@@ -10,7 +10,7 @@ tags:
   - gyu
 last_modified_at: 2020-09-15T08:06:00-10:00
 ---
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/gyu/881.jpg)
+{% include figure image_path="/assets/images/gyu/881.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
 안녕하세요. 
 KAU너드들의 첫번째 개발자 gyu 입니다.  
 
@@ -73,7 +73,7 @@ KAU너드들의 첫번째 개발자 gyu 입니다.
     
     해당 폴더에 이미지를 넣어주고 다음과 같이 써줍니다.  
     ```
-    ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/gyu/881.jpg)
+    {% include figure image_path="/assets/images/gyu/881.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
     ```
     현재 아마 gyu와 881.png 말고는 나머지는 똑같을 것 입니다.
     다만 md 파일 preview해주는 기능으로는 다음의 사진들이 안보일 것 입니다.  
